@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+  }
+  
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    align-items: center;
+    color: white;
+    padding-bottom: 15px ;
+    padding-top: 15px;
+}
+
+body > header > h1 {
+    margin-left: 50px;
+    font-size: 20px 
+}
+
+body > header > nav > a{
+    background-color: rgb(86, 185, 144);
+    padding: 20px;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 15%;
+}
+
+body > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+
+}
+
+form {
+    background-color: rgb(21, 19, 34);
+    color: white;
+    padding: 20px 0px 30px 0px; 
+}
+
+.input-boxes  {
+    font-size:14pt;
+    height:60px;
+    width:200px;
+    background-color: rgb(21, 19, 34);
+    color: rgb(230, 216, 216);
+    border-style: solid;
+    border-radius: 5%;
+    margin: 0px 5px 0px 5px;
+   }
+
+#boxes {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+button {
+    background-color: rgb(255, 0, 0);
+    padding: 10px 30px;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 7%;
+    font-size: 20px;
+    text-emphasis: bold;
+    cursor: pointer;
+}
+
+#center-text {
+    text-align: center;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
